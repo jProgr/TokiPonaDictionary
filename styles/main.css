@@ -6,6 +6,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: snow;
   font-size: 20px;
+  margin: 0;
 
   background-color: #FF822E;
   background-image: -webkit-linear-gradient(172deg, #ecbc34 0%, #ff822e 31%, #fa6c6c 75%, #fbb8b8 100%);
@@ -17,6 +18,7 @@ body {
 #main-wrapper {
   margin: 10px auto;
   width: 500px;
+  min-height: 100vh;
 }
 
 li {
