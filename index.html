@@ -15,7 +15,9 @@
 
             <main ng-app="tpDict">
                 <div ng-controller="SearchBoxController">
-                    <input type="text" ng-model="query" placeholder="pona">
+                    <div class="" id="search-box">
+                        <input type="text" ng-model="query" autofocus="true" placeholder="pona">
+                    </div>
                     <div>
                         <div ng-repeat="words in dictionary | filter:query">
                             <p>{{ words.word }}</p>
