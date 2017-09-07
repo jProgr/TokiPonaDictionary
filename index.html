@@ -3,23 +3,38 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
     </head>
-    <body ng-app="tpDict">
-        <div ng-controller="SearchBoxController">
-            <input type="text" ng-model="query" placeholder="pona">
-            <div>
-                <div ng-repeat="words in dictionary | filter:query">
-                    <p>{{ words.word }}</p>
-                    <ul>
-                        <li ng-repeat="meaning in words.meanings">
-                            {{ meaning[0] }} {{ meaning[1] }}
-                        </li>
-                    </ul>
+    <body>
+        <div id="main-wrapper">
+            <header>
+                <h1>Toki Pona Dictionary</h1>
+                <p>Search in english and Toki Pona</p>
+            </header>
+
+            <main ng-app="tpDict">
+                <div ng-controller="SearchBoxController">
+                    <input type="text" ng-model="query" placeholder="pona">
+                    <div>
+                        <div ng-repeat="words in dictionary | filter:query">
+                            <p>{{ words.word }}</p>
+                            <ul>
+                                <li ng-repeat="meaning in words.meanings">
+                                    {{ meaning[0] }} {{ meaning[1] }}
+                                </li>
+                            </ul>
+                        </div>
+                        <ul>
+                            <li ng-repeat="word in words | filter:query">{{ word }}</li>
+                        </ul>
+                    </div>
                 </div>
-                <ul>
-                    <li ng-repeat="word in words | filter:query">{{ word }}</li>
-                </ul>
-            </div>
+            </main>
+
+            <footer>
+                
+            </footer>
         </div>
     </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
