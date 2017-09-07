@@ -5,6 +5,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: snow;
+  font-size: 20px;
 
   background-color: #FF822E;
   background-image: -webkit-linear-gradient(164deg, #ecbc34 0%, #ff822e 16%, #fa6c6c 60%, #fbb8b8 83%, #ffd1d2 100%);
@@ -33,6 +34,7 @@ header {
 
 h1 {
   font-weight: 200;
+  font-size: 40px;
   letter-spacing: 3px;
   margin: 0;
   margin-top: 1em;
@@ -40,8 +42,17 @@ h1 {
 
 .subtitle {
   font-weight: 300;
+  font-size: 20px;
   margin: 0;
-  margin-top: 1em;
+  margin-top: .2em;
+}
+
+/*
+  Main
+*/
+
+main {
+  margin-top: 50px;
 }
 
 /*
@@ -50,6 +61,7 @@ h1 {
 
 footer {
   margin-top: 50px;
+  font-size: 16px;
 }
 
 .footer-title {
