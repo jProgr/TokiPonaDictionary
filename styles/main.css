@@ -23,6 +23,11 @@ li {
   list-style: none;
 }
 
+a {
+  color: snow;
+  text-decoration: none;
+}
+
 /*
   Header
 */
@@ -113,4 +118,25 @@ footer {
 
 .footer-title {
   font-weight: 600;
+}
+.parts-of-speech {
+  font-weight: 300;
+}
+
+.credits {
+  font-weight: 600;
+  font-size: 10px;
+  width: 100%;
+  margin-top: 50px;
+  bottom: 0;
+}
+.credits ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.credits li {
+  display: block;
 }
