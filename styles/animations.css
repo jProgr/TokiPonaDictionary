@@ -1,0 +1,12 @@
+header {
+  animation: pop-in 1.5s linear;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
