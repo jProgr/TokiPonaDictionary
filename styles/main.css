@@ -1,3 +1,7 @@
+/* 
+  General
+*/
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -5,4 +9,26 @@ body {
 #main-wrapper {
   margin: 10px auto;
   width: 500px;
+}
+
+/*
+  Header
+*/
+
+header {
+  text-align: center;
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.subtitle {
+  font-weight: 300;
+  margin: 0;
+  margin-top: 1em;
 }
