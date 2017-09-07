@@ -4,6 +4,13 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: snow;
+
+  background-color: #FF822E;
+  background-image: -webkit-linear-gradient(164deg, #ecbc34 0%, #ff822e 16%, #fa6c6c 60%, #fbb8b8 83%, #ffd1d2 100%);
+  background-image: -moz-linear-gradient(164deg, #ecbc34 0%, #ff822e 16%, #fa6c6c 60%, #fbb8b8 83%, #ffd1d2 100%);
+  background-image: -o-linear-gradient(164deg, #ecbc34 0%, #ff822e 16%, #fa6c6c 60%, #fbb8b8 83%, #ffd1d2 100%);
+  background-image: linear-gradient(164deg, #ecbc34 0%, #ff822e 16%, #fa6c6c 60%, #fbb8b8 83%, #ffd1d2 100%);
 }
 
 #main-wrapper {
