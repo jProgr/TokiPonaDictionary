@@ -20,6 +20,11 @@ body {
   width: 500px;
   min-height: 100vh;
 }
+@media screen and (max-width: 550px) {
+  #main-wrapper {
+    width: 95vw;
+  }
+}
 
 li {
   list-style: none;
@@ -45,6 +50,11 @@ h1 {
   letter-spacing: 3px;
   margin: 0;
   margin-top: 1em;
+}
+@media screen and (max-width: 550px) {
+  h1 {
+    margin-top: .2em;
+  }
 }
 
 .subtitle {
@@ -76,7 +86,6 @@ input {
   text-align: center;
   font-size: 20px;
 }
-
 input:focus {
   outline: none;
 }
@@ -101,8 +110,6 @@ input:-moz-placeholder {
   opacity: 0.5;
 }
 
-
-
 .dictionary-words {
   margin-top: 50px;
   border-bottom: thin solid snow;
@@ -111,6 +118,11 @@ input:-moz-placeholder {
   margin: 2.5em 0;
   display: flex;
   font-weight: 400;
+}
+@media screen and (max-width: 350px) {
+  .word {
+    display: block;
+  }
 }
 .word-name {
   display: block;
@@ -124,6 +136,11 @@ input:-moz-placeholder {
   margin: 0;
   padding: 0;
   font-weight: 300;
+}
+@media screen and (max-width: 350px) {
+  .word-meanings {
+    width: 100%;
+  }
 }
 .meaning {
   margin: 0;
@@ -164,7 +181,15 @@ footer {
   display: flex;
   justify-content: space-around;
 }
-
 .credits li {
   display: block;
+}
+@media screen and (max-width: 550px) {
+  .credits ul {
+    flex-direction: column;
+  }
+  .credits li {
+    text-align: center;
+    display: block;
+  }
 }
