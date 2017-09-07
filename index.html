@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,400,600" rel="stylesheet">
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
@@ -18,12 +18,12 @@
                     <div id="search-box">
                         <input type="text" ng-model="query" autofocus="true" placeholder="pona">
                     </div>
-                    <div>
-                        <div ng-repeat="words in dictionary | filter:query">
-                            <p>{{ words.word }}</p>
-                            <ul>
-                                <li ng-repeat="meaning in words.meanings">
-                                    {{ meaning[0] }} {{ meaning[1] }}
+                    <div class="dictionary-words">
+                        <div class="word" ng-repeat="words in dictionary | filter:query">
+                            <div class="word-name">{{ words.word }}</div>
+                            <ul class="word-meanings">
+                                <li class="meaning" ng-repeat="meaning in words.meanings">
+                                    <span class="speech-type">{{ meaning[0] }}</span> <span>{{ meaning[1] }}</span>
                                 </li>
                             </ul>
                         </div>
