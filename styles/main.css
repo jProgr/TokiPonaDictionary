@@ -75,6 +75,32 @@ input {
   font-size: 20px;
 }
 
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: snow;
+  opacity: 0.5;
+}
+input::-webkit-input-placeholder {
+  color: snow;
+  opacity: 0.5;
+}
+input::-moz-placeholder {
+  color: snow;
+  opacity: 0.5;
+}
+input:-ms-input-placeholder {
+  color: snow;
+  opacity: 0.5;
+}
+input:-moz-placeholder {
+  color: snow;
+  opacity: 0.5;
+}
+
+
+
 .dictionary-words {
   margin-top: 50px;
   border-bottom: thin solid snow;
