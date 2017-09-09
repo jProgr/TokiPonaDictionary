@@ -82,6 +82,7 @@ input {
   background-color: transparent;
   border-style: none;
   border-bottom: thin solid snow;
+  padding: 0 1px;
   color: snow;
   text-align: center;
   font-size: 20px;
