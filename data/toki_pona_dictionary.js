@@ -421,6 +421,10 @@ toki_pona_dictionary = [
     "word":"kulupu",
     "meanings":[
       [
+        "n",
+        "group, community, society, company"
+      ],
+      [
         "mod",
         "communal, shared, public, of the society"
       ]
@@ -442,12 +446,19 @@ toki_pona_dictionary = [
   {
     "word":"la",
     "meanings":[
-
+      [
+        "sep",
+        "(between adverb or phrase of context and sentence)"
+      ]
     ]
   },
   {
     "word":"lape",
     "meanings":[
+      [
+        "n, vi",
+        "sleep, rest"
+      ],
       [
         "mod",
         "sleeping, of sleep laso mod blue, blue-green"
@@ -455,16 +466,34 @@ toki_pona_dictionary = [
     ]
   },
   {
+    "word":"laso",
+    "meanings":[
+      [
+        "mod",
+        "blue, blue-green"
+      ]
+    ]
+  },
+  {
     "word":"lawa",
     "meanings":[
+      [
+        "n",
+        "head, mind"
+      ],
       [
         "mod",
         "main, leading, in charge"
       ],
       [
         "vt",
-        "lead, control, rule, steer len"
-      ],
+        "lead, control, rule, steer"
+      ]
+    ]
+  },
+  {
+    "word":"len",
+    "meanings":[
       [
         "n",
         "clothing, cloth, fabric"
@@ -474,6 +503,10 @@ toki_pona_dictionary = [
   {
     "word":"lete",
     "meanings":[
+      [
+        "n",
+        "cold"
+      ],
       [
         "mod",
         "cold, uncooked"
@@ -487,12 +520,19 @@ toki_pona_dictionary = [
   {
     "word":"li",
     "meanings":[
-
+      [
+        "sep",
+        "(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"
+      ]
     ]
   },
   {
     "word":"lili",
     "meanings":[
+      [
+        "mod",
+        "small, little, young, a bit, short, fes, less"
+      ],
       [
         "vt",
         "reduce, shorten, shrink, lessen"
@@ -502,24 +542,37 @@ toki_pona_dictionary = [
   {
     "word":"linja",
     "meanings":[
-
+      [
+        "n",
+        "long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain"
+      ]
     ]
   },
   {
     "word":"lipu",
     "meanings":[
-
+      [
+        "n",
+        "flat and bendable thing, e.g. paper, card, ticket"
+      ]
     ]
   },
   {
     "word":"loje",
     "meanings":[
-
+      [
+        "mod",
+        "red"
+      ]
     ]
   },
   {
     "word":"lon",
     "meanings":[
+      [
+        "prep",
+        "be located in/at/on"
+      ],
       [
         "vi",
         "be there, be present, be real/true, exist, be awake"
@@ -530,6 +583,10 @@ toki_pona_dictionary = [
     "word":"luka",
     "meanings":[
       [
+        "n",
+        "hand, arm"
+      ],
+      [
         "mod",
         "five"
       ]
@@ -538,6 +595,10 @@ toki_pona_dictionary = [
   {
     "word":"lukin",
     "meanings":[
+      [
+        "vt",
+        "see, look at, watch, read"
+      ],
       [
         "vi",
         "look, watch out, pay attention"
@@ -551,18 +612,28 @@ toki_pona_dictionary = [
   {
     "word":"lupa",
     "meanings":[
-
+      [
+        "n",
+        "hole, orifice, window, door"
+      ]
     ]
   },
   {
     "word":"ma",
     "meanings":[
-
+      [
+        "n",
+        "land, earth, country, (outdoor) area"
+      ]
     ]
   },
   {
     "word":"mama",
     "meanings":[
+      [
+        "n",
+        "parent, mother, father"
+      ],
       [
         "mod",
         "of the parent, parental, maternal, fatherly"
@@ -572,12 +643,19 @@ toki_pona_dictionary = [
   {
     "word":"mani",
     "meanings":[
-
+      [
+        "n",
+        "money, material wealth, currency, dollar, capital"
+      ]
     ]
   },
   {
     "word":"meli",
     "meanings":[
+      [
+        "n",
+        "woman, female, girl, wife, girlfriend"
+      ],
       [
         "mod",
         "female, feminine, womanly"
@@ -588,6 +666,10 @@ toki_pona_dictionary = [
     "word":"mi",
     "meanings":[
       [
+        "n",
+        "I, we"
+      ],
+      [
         "mod",
         "my, our"
       ]
@@ -596,12 +678,23 @@ toki_pona_dictionary = [
   {
     "word":"mije",
     "meanings":[
-
+      [
+        "n",
+        "man, male, husband, boyfriend"
+      ],
+      [
+        "mod",
+        "male, masculine, manly"
+      ]
     ]
   },
   {
     "word":"moku",
     "meanings":[
+      [
+        "n",
+        "food, meal"
+      ],
       [
         "vt",
         "eat, drink, swallow, ingest, consume"
@@ -611,6 +704,10 @@ toki_pona_dictionary = [
   {
     "word":"moli",
     "meanings":[
+      [
+        "n",
+        "death"
+      ],
       [
         "mod",
         "dead, deadly, fatal"
@@ -629,6 +726,10 @@ toki_pona_dictionary = [
     "word":"monsi",
     "meanings":[
       [
+        "n",
+        "back, rear end, butt, behind"
+      ],
+      [
         "mod",
         "back, rear"
       ]
@@ -637,12 +738,19 @@ toki_pona_dictionary = [
   {
     "word":"mu",
     "meanings":[
-
+      [
+        "interj",
+        "woof! meow! moo! etc. (cute animal noise)"
+      ],
     ]
   },
   {
     "word":"mun",
     "meanings":[
+      [
+        "n",
+        "moon"
+      ],
       [
         "mod",
         "lunar"
@@ -652,6 +760,14 @@ toki_pona_dictionary = [
   {
     "word":"musi",
     "meanings":[
+      [
+        "n",
+        "fun, playing, game, recreation, art, entertainment"
+      ],
+      [
+        "mod",
+        "artful, fun, recreational"
+      ],
       [
         "vi",
         "play, have fun"
@@ -666,6 +782,10 @@ toki_pona_dictionary = [
     "word":"mute",
     "meanings":[
       [
+        "mod",
+        "many, several, very, much, a lot, abundant, numerous, more"
+      ],
+      [
         "n",
         "amount, quantity"
       ],
@@ -679,6 +799,10 @@ toki_pona_dictionary = [
     "word":"nanpa",
     "meanings":[
       [
+        "n",
+        "number"
+      ],
+      [
         "oth",
         "-th (ordinal numbers)"
       ]
@@ -688,6 +812,10 @@ toki_pona_dictionary = [
     "word":"nasa",
     "meanings":[
       [
+        "mod",
+        "silly, crazy, foolish, drunk, strange, stupid, weird"
+      ],
+      [
         "vt",
         "drive crazy, make weird"
       ]
@@ -696,36 +824,55 @@ toki_pona_dictionary = [
   {
     "word":"nasin",
     "meanings":[
-
+      [
+        "n",
+        "way, manner, custom, road, path, doctrine, system, method"
+      ]
     ]
   },
   {
     "word":"nena",
     "meanings":[
-
+      [
+        "n",
+        "bump, hill, mountain, button, nose"
+      ]
     ]
   },
   {
     "word":"ni",
     "meanings":[
-
+      [
+        "mod",
+        "this, that"
+      ]
     ]
   },
   {
     "word":"nimi",
     "meanings":[
-
+      [
+        "n",
+        "word, name"
+      ]
     ]
   },
   {
     "word":"noka",
     "meanings":[
-
+      [
+        "n",
+        "leg, foot"
+      ]
     ]
   },
   {
     "word":"o",
     "meanings":[
+      [
+        "sep",
+        "O (vocative or imperative)"
+      ],
       [
         "interj",
         "hey! (calling somebody's attention)"
@@ -735,12 +882,19 @@ toki_pona_dictionary = [
   {
     "word":"oko",
     "meanings":[
-
+      [
+        "n",
+        "eye"
+      ]
     ]
   },
   {
     "word":"olin",
     "meanings":[
+      [
+        "n",
+        "love"
+      ],
       [
         "mod",
         "love"
@@ -754,18 +908,32 @@ toki_pona_dictionary = [
   {
     "word":"ona",
     "meanings":[
-
+      [
+        "n",
+        "he, she, it, they"
+      ],
+      [
+        "mod",
+        "his, her, its, their"
+      ]
     ]
   },
   {
     "word":"open",
     "meanings":[
-
+      [
+        "vt",
+        "open, turn on"
+      ]
     ]
   },
   {
     "word":"pakala",
     "meanings":[
+      [
+        "n",
+        "blunder, accident, mistake, destruction, damage, breaking"
+      ],
       [
         "vt",
         "screw up, fuck up, botch, ruin, break, hurt, injure, damage, bungle, spoil, ruin"
@@ -784,6 +952,10 @@ toki_pona_dictionary = [
     "word":"pali",
     "meanings":[
       [
+        "n",
+        "activity, work, deed, projec"
+      ],
+      [
         "mod",
         "active, work-related, operating, working"
       ],
@@ -800,12 +972,19 @@ toki_pona_dictionary = [
   {
     "word":"palisa",
     "meanings":[
-
+      [
+        "n",
+        "long, mostly hard object, e.g. rod, stick, branch"
+      ]
     ]
   },
   {
     "word":"pana",
     "meanings":[
+      [
+        "vt",
+        "give, put, send, place, release, emit, cause"
+      ],
       [
         "n",
         "giving, transfer, exchange"
@@ -815,12 +994,19 @@ toki_pona_dictionary = [
   {
     "word":"pi",
     "meanings":[
-
+      [
+        "sep",
+        "of, belonging to"
+      ]
     ]
   },
   {
     "word":"pilin",
     "meanings":[
+      [
+        "n",
+        "feelings, emotion, heart"
+      ],
       [
         "vi",
         "feel"
@@ -835,6 +1021,10 @@ toki_pona_dictionary = [
     "word":"pimeja",
     "meanings":[
       [
+        "mod",
+        "black, dark"
+      ],
+      [
         "n",
         "darkness, shadows"
       ],
@@ -848,6 +1038,10 @@ toki_pona_dictionary = [
     "word":"pini",
     "meanings":[
       [
+        "n",
+        "end, tip"
+      ],
+      [
         "mod",
         "completed, finished, past, done, ago"
       ],
@@ -860,12 +1054,19 @@ toki_pona_dictionary = [
   {
     "word":"pipi",
     "meanings":[
-
+      [
+        "n",
+        "bug, insect, spider"
+      ]
     ]
   },
   {
     "word":"poka",
     "meanings":[
+      [
+        "n",
+        "side, hip, next to"
+      ],
       [
         "mod",
         "neighboring"
@@ -879,12 +1080,19 @@ toki_pona_dictionary = [
   {
     "word":"poki",
     "meanings":[
-
+      [
+        "n",
+        "container, box, bowl, cup, glass"
+      ]
     ]
   },
   {
     "word":"pona",
     "meanings":[
+      [
+        "n",
+        "good, simplicity, positivity"
+      ],
       [
         "mod",
         "good, simple, positive, nice, correct, right"
@@ -903,6 +1111,10 @@ toki_pona_dictionary = [
     "word":"sama",
     "meanings":[
       [
+        "mod",
+        "same, similar, equal, of equal status or position"
+      ],
+      [
         "prep",
         "like, as, seem"
       ],
@@ -916,6 +1128,10 @@ toki_pona_dictionary = [
     "word":"seli",
     "meanings":[
       [
+        "n",
+        "fire, warmth, heat"
+      ],
+      [
         "mod",
         "hot, warm, cooked"
       ],
@@ -928,18 +1144,28 @@ toki_pona_dictionary = [
   {
     "word":"selo",
     "meanings":[
-
+      [
+        "n",
+        "outside, surface, skin, shell, bark, shape, peel"
+      ]
     ]
   },
   {
     "word":"seme",
     "meanings":[
-
+      [
+        "oth",
+        "what, which, wh- (question word)"
+      ]
     ]
   },
   {
     "word":"sewi",
     "meanings":[
+      [
+        "n",
+        "high, up, above, top, over, on"
+      ],
       [
         "mod",
         "superior, elevated, religious, formal"
@@ -949,12 +1175,19 @@ toki_pona_dictionary = [
   {
     "word":"sijelo",
     "meanings":[
-
+      [
+        "n",
+        "body, physical state"
+      ],
     ]
   },
   {
     "word":"sike",
     "meanings":[
+      [
+        "n",
+        "circle, wheel, sphere, ball, cycle"
+      ],
       [
         "mod",
         "round, cyclical"
@@ -965,6 +1198,10 @@ toki_pona_dictionary = [
     "word":"sin",
     "meanings":[
       [
+        "mod",
+        "new, fresh, another, more"
+      ],
+      [
         "vt",
         "renew, renovate, freshen"
       ]
@@ -974,6 +1211,10 @@ toki_pona_dictionary = [
     "word":"sina",
     "meanings":[
       [
+        "n",
+        "you"
+      ],
+      [
         "mod",
         "your"
       ]
@@ -982,12 +1223,19 @@ toki_pona_dictionary = [
   {
     "word":"sinpin",
     "meanings":[
-
+      [
+        "n",
+        "front, chest, torso, wall"
+      ]
     ]
   },
   {
     "word":"sitelen",
     "meanings":[
+      [
+        "n",
+        "picture, image"
+      ],
       [
         "vt",
         "draw, write"
@@ -997,6 +1245,10 @@ toki_pona_dictionary = [
   {
     "word":"sona",
     "meanings":[
+      [
+        "n",
+        "knowledge, wisdom, intelligence, understanding"
+      ],
       [
         "vt",
         "know, understand, know how to"
@@ -1014,12 +1266,19 @@ toki_pona_dictionary = [
   {
     "word":"soweli",
     "meanings":[
-
+      [
+        "n",
+        "animal, especially land mammal, lovable animal"
+      ]
     ]
   },
   {
     "word":"suli",
     "meanings":[
+      [
+        "mod",
+        "big, tall, long, adult, important"
+      ],
       [
         "vt",
         "enlarge, lengthen"
@@ -1033,18 +1292,28 @@ toki_pona_dictionary = [
   {
     "word":"suno",
     "meanings":[
-
+      [
+        "n",
+        "sun, light"
+      ]
     ]
   },
   {
     "word":"supa",
     "meanings":[
-
+      [
+        "n",
+        "horizontal surface, e.g furniture, table, chair, pillow, floor"
+      ]
     ]
   },
   {
     "word":"suwi",
     "meanings":[
+      [
+        "n",
+        "candy, sweet food"
+      ],
       [
         "mod",
         "sweet, cute"
@@ -1059,6 +1328,10 @@ toki_pona_dictionary = [
     "word":"tan",
     "meanings":[
       [
+        "prep",
+        "from, by, because of, since"
+      ],
+      [
         "n",
         "origin, cause"
       ]
@@ -1068,6 +1341,10 @@ toki_pona_dictionary = [
     "word":"taso",
     "meanings":[
       [
+        "mod",
+        "only, sole"
+      ],
+      [
         "conj",
         "but"
       ]
@@ -1076,6 +1353,14 @@ toki_pona_dictionary = [
   {
     "word":"tawa",
     "meanings":[
+      [
+        "prep",
+        "to, in order to, towards, for, until"
+      ],
+      [
+        "n",
+        "movement, transportation"
+      ],
       [
         "mod",
         "moving, mobile"
@@ -1094,6 +1379,10 @@ toki_pona_dictionary = [
     "word":"telo",
     "meanings":[
       [
+        "n",
+        "water, liquid, juice, sauce"
+      ],
+      [
         "vt",
         "water, wash with water"
       ]
@@ -1102,12 +1391,19 @@ toki_pona_dictionary = [
   {
     "word":"tenpo",
     "meanings":[
-
+      [
+        "n",
+        "time, period of time, moment, duration, situation"
+      ]
     ]
   },
   {
     "word":"toki",
     "meanings":[
+      [
+        "n",
+        "language, talking, speech, communication"
+      ],
       [
         "vt",
         "say"
@@ -1125,12 +1421,23 @@ toki_pona_dictionary = [
   {
     "word":"tomo",
     "meanings":[
-
+      [
+        "n",
+        "indoor constructed space, e.g. house, home, room, building"
+      ],
+      [
+        "mod",
+        "urban, domestic, household"
+      ]
     ]
   },
   {
     "word":"tu",
     "meanings":[
+      [
+        "mod",
+        "two"
+      ],
       [
         "n",
         "duo, pair"
@@ -1144,6 +1451,10 @@ toki_pona_dictionary = [
   {
     "word":"unpa",
     "meanings":[
+      [
+        "n",
+        "sex, sexuality"
+      ],
       [
         "mod",
         "erotic, sexual"
@@ -1162,6 +1473,10 @@ toki_pona_dictionary = [
     "word":"uta",
     "meanings":[
       [
+        "n",
+        "mouth"
+      ],
+      [
         "mod",
         "oral"
       ]
@@ -1171,9 +1486,18 @@ toki_pona_dictionary = [
     "word":"utala",
     "meanings":[
       [
-        "vt",
-        "hit, strike, attack, compete against walo"
+        "n",
+        "conflict, disharmony, competition, fight, war, battle, attack, blow, argument, physical or verbal violence"
       ],
+      [
+        "vt",
+        "hit, strike, attack, compete against"
+      ]
+    ]
+  },
+  {
+    "word":"walo",
+    "meanings":[
       [
         "mod",
         "white, light (colour)"
@@ -1188,6 +1512,10 @@ toki_pona_dictionary = [
     "word":"wan",
     "meanings":[
       [
+        "mod",
+        "one, a"
+      ],
+      [
         "n",
         "unit, element, particle, part, piece"
       ],
@@ -1200,12 +1528,19 @@ toki_pona_dictionary = [
   {
     "word":"waso",
     "meanings":[
-
+      [
+        "n",
+        "bird, winged animal"
+      ]
     ]
   },
   {
     "word":"wawa",
     "meanings":[
+      [
+        "n",
+        "energy, strength, power"
+      ],
       [
         "mod",
         "energetic, strong, fierce, intense, sure, confident"
@@ -1220,6 +1555,10 @@ toki_pona_dictionary = [
     "word":"weka",
     "meanings":[
       [
+        "mod",
+        "away, absent, missing"
+      ],
+      [
         "n",
         "absence"
       ],
@@ -1233,6 +1572,10 @@ toki_pona_dictionary = [
     "word":"wile",
     "meanings":[
       [
+        "vt",
+        "to want, need, wish, have to, must, will, should"
+      ],
+      [
         "n",
         "desire, need, will"
       ],
@@ -1242,5 +1585,4 @@ toki_pona_dictionary = [
       ]
     ]
   }
-  
 ];
