@@ -35,6 +35,23 @@ toki_pona_dictionary = [
     ]
   },
   {
+    "word": "alasa",
+    "meanings": [
+      [
+        "mod",
+        "hunting-, -hunting, hunting"
+      ],
+      [
+        "n",
+        "hunting"
+      ],
+      [
+        "vt",
+        "to hunt, to forage"
+      ]
+    ]
+  },
+  {
     "word": "ali (ale)",
     "meanings": [
       [
@@ -130,6 +147,23 @@ toki_pona_dictionary = [
     ]
   },
   {
+    "word": "esun",
+    "meanings": [
+      [
+        "n",
+        "market, shop, fair, bazaar, business, transaction"
+      ],
+      [
+        "mod",
+        "commercial, trade, marketable, for sale, salable, deductible"
+      ],
+      [
+        "vt",
+        "to buy, to sell, to barter, to swap"
+      ]
+    ]
+  },
+  {
     "word": "ijo",
     "meanings": [
       [
@@ -214,7 +248,7 @@ toki_pona_dictionary = [
       ]
     ]
   },
-  { 
+  {
     "word": "jan",
     "meanings": [
       [
@@ -231,7 +265,7 @@ toki_pona_dictionary = [
       ]
     ]
   },
-  { 
+  {
     "word": "jelo",
     "meanings": [
       [
@@ -365,6 +399,21 @@ toki_pona_dictionary = [
       ]
     ]
   },
+  {
+    "word":"kipisi",
+    "meanings":[
+      [
+        "n*",
+        "section, fragment, slice"
+      ],
+      [
+        "vt*",
+        "to cut"
+      ]
+    ]
+  },
+
+
   {
     "word":"kiwen",
     "meanings":[
@@ -605,8 +654,8 @@ toki_pona_dictionary = [
       ],
       [
         "mod",
-        "visual"
-      ]
+        "visual, to seek to, try to, look for"
+      ],
     ]
   },
   {
@@ -736,6 +785,19 @@ toki_pona_dictionary = [
     ]
   },
   {
+    "word":"monsuta",
+    "meanings":[
+      [
+        "n*",
+        "back, rear end, butt, behind"
+      ],
+      [
+        "mod*",
+        "monster, monstrosity, fearful thing, fright, mythical creatures, fear"
+      ]
+    ]
+  },
+  {
     "word":"mu",
     "meanings":[
       [
@@ -792,6 +854,23 @@ toki_pona_dictionary = [
       [
         "vt",
         "make many or much"
+      ]
+    ]
+  },
+  {
+    "word":"namako",
+    "meanings":[
+      [
+        "n",
+        "spice, something extra, food additive, accessory"
+      ],
+      [
+        "vt",
+        "to spice, to flavor, to decorate"
+      ],
+      [
+        "mod",
+        "spicy, piquant"
       ]
     ]
   },
@@ -1104,6 +1183,27 @@ toki_pona_dictionary = [
       [
         "vt",
         "improve, fix, repair, make good"
+      ]
+    ]
+  },
+  {
+    "word":"pu",
+    "meanings":[
+      [
+        "n",
+        "buying and interacting with the official Toki Pona book"
+      ],
+      [
+        "mod",
+        "buying and interacting with the official Toki Pona book"
+      ],
+      [
+        "vt",
+        "to apply (the official Toki Pona book) to…"
+      ],
+      [
+        "vi",
+        "to buy and to read (the official Toki Pona book)"
       ]
     ]
   },
