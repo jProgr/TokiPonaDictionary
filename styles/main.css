@@ -1,4 +1,4 @@
-/* 
+/*
   General
 */
 
@@ -9,10 +9,10 @@ body {
   margin: 0;
 
   background-color: #FF822E;
-  background-image: -webkit-linear-gradient(172deg, #ecbc34 0%, #ff822e 31%, #fa6c6c 75%, #fbb8b8 100%);
-  background-image: -moz-linear-gradient(172deg, #ecbc34 0%, #ff822e 31%, #fa6c6c 75%, #fbb8b8 100%);
-  background-image: -o-linear-gradient(172deg, #ecbc34 0%, #ff822e 31%, #fa6c6c 75%, #fbb8b8 100%);
-  background-image: linear-gradient(172deg, #ecbc34 0%, #ff822e 31%, #fa6c6c 75%, #fbb8b8 100%);
+  background-image: -webkit-linear-gradient(172deg, #ff822e 0%, #fa6c6c 100%, #fbb8b8 100%);
+  background-image: -moz-linear-gradient(172deg, #ff822e 0%, #fa6c6c 100%, #fbb8b8 100%);
+  background-image: -o-linear-gradient(172deg, #ff822e 0%, #fa6c6c 100%, #fbb8b8 100%);
+  background-image: linear-gradient(172deg, #ff822e 0%, #fa6c6c 100%, #fbb8b8 100%);
 }
 
 #main-wrapper {
