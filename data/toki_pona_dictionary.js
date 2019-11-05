@@ -431,8 +431,12 @@ toki_pona_dictionary = [
     "word":"ko",
     "meanings":[
       [
-        "mod",
-        "air-like, ethereal, gaseous"
+        "n",
+        "semi-solid or squishy substance; clay, dough, glue, paste, powder, gum"
+      ],
+      [
+        "vt",
+        "to squash, to pulverize"
       ]
     ]
   },
