@@ -52,7 +52,7 @@ toki_pona_dictionary = [
     ]
   },
   {
-    "word": "ali (ale)",
+    "word": "ale (ali)",
     "meanings": [
       [
         "n",
@@ -412,8 +412,6 @@ toki_pona_dictionary = [
       ]
     ]
   },
-
-
   {
     "word":"kiwen",
     "meanings":[
@@ -562,7 +560,7 @@ toki_pona_dictionary = [
       ],
       [
         "mod",
-        "cold, uncooked"
+        "cold, uncooked, raw"
       ],
       [
         "vt",
@@ -815,7 +813,7 @@ toki_pona_dictionary = [
     "meanings":[
       [
         "n",
-        "moon"
+        "moon, night sky object"
       ],
       [
         "mod",
@@ -865,15 +863,15 @@ toki_pona_dictionary = [
     "word":"namako",
     "meanings":[
       [
-        "n",
+        "n*",
         "spice, something extra, food additive, accessory"
       ],
       [
-        "vt",
+        "vt*",
         "to spice, to flavor, to decorate"
       ],
       [
-        "mod",
+        "mod*",
         "spicy, piquant"
       ]
     ]
@@ -1058,6 +1056,15 @@ toki_pona_dictionary = [
       [
         "n",
         "long, mostly hard object, e.g. rod, stick, branch"
+      ]
+    ]
+  },
+  {
+    "word":"pan",
+    "meanings":[
+      [
+        "n",
+        "cereal, grain, barley, corn, oat, rice, wheat, bread, pasta"
       ]
     ]
   },
