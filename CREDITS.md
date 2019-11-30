@@ -5,8 +5,10 @@
 # Content
 
 - Toki Pona is a constructed language by Sonja Lang. The book Toki Pona: The Language of Good by Sonja Lang is under Copyright.
-- Some Toki Pona words and meanings taken from the book Toki Pona: the language of good - the simple way of life by B. J. Knight. As noted by Sonja Lang, the dictionary on the book Toki Pona: The Language of Good is under public domain.
-- Some Toki Pona words and meanings taken from the book Toki Pona: The Simplest Language in the World by Robert Warnke.
+- Some Toki Pona words and meanings taken from:
+    - The Official Toki Pona Dictionary (2014). As noted by Sonja Lang, the dictionary on the book Toki Pona: The Language of Good is under public domain.
+    - The book Toki Pona: The language of good - the simple way of life (2005) by B. J. Knight.
+    - The book Toki Pona: The Simplest Language in the World (2019) by Robert Warnke.
 
 # Tools
 
