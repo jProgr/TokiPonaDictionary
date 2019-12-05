@@ -1034,7 +1034,7 @@ toki_pona_dictionary = [
     "meanings":[
       [
         "n",
-        "activity, work, deed, projec"
+        "activity, work, deed, project"
       ],
       [
         "mod",
