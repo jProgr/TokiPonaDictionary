@@ -512,7 +512,7 @@ toki_pona_dictionary = [
       ],
       [
         "mod",
-        "sleeping, of sleep laso mod blue, blue-green"
+        "sleeping, of sleep"
       ]
     ]
   },
