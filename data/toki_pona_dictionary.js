@@ -791,10 +791,6 @@ toki_pona_dictionary = [
     "meanings":[
       [
         "n*",
-        "back, rear end, butt, behind"
-      ],
-      [
-        "mod*",
         "monster, monstrosity, fearful thing, fright, mythical creatures, fear"
       ]
     ]
