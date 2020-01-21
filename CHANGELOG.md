@@ -1,5 +1,9 @@
 # Changelog
 
+## 200121
+### Fixed
+- Fixed multiple definitions from the dictionary.
+
 ## 191130
 ### Added
 - A changelog will now be kept.
