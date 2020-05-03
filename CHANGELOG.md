@@ -1,5 +1,10 @@
 # Changelog
 
+## 200503
+### Changed
+- Updated dependencies.
+- The dependencies are now loaded from the same source instead of some third party CDN.
+
 ## 200121
 ### Fixed
 - Fixed multiple definitions from the dictionary.
