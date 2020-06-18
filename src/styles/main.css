@@ -5,28 +5,33 @@
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 200;
-  src: url(fonts/SourceSansPro-ExtraLight.ttf);
+  src: local(Source Sans Pro ExtraLight),
+    url(fonts/SourceSansPro-ExtraLight.woff);
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 200;
   font-style: italic;
-  src: url(fonts/SourceSansPro-ExtraLight.ttf);
+  src: local(Source Sans Pro Italic),
+    url(fonts/SourceSansPro-ExtraLight.woff);
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 300;
-  src: url(fonts/SourceSansPro-Light.ttf);
+  src: local(Source Sans Pro Light),
+    url(fonts/SourceSansPro-Light.woff);
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 400;
-  src: url(fonts/SourceSansPro-Regular.ttf);
+  src: local(Source Sans Pro),
+    url(fonts/SourceSansPro-Regular.woff);
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 600;
-  src: url(fonts/SourceSansPro-SemiBold.ttf);
+  src: local(Source Sans Pro Semibold),
+    url(fonts/SourceSansPro-SemiBold.woff);
 }
 
 /*
