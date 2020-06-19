@@ -2,11 +2,11 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const fs = require('fs');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
-    // compress: true,
     port: 9000,
   },
   mode: 'production',
@@ -40,6 +40,12 @@ module.exports = {
         removeStyleLinkTypeAttributes: true,
         useShortDoctype: true,
       },
+    }),
+    // Static assets like images
+    new CopyPlugin({
+      patterns: [
+        { from: 'src/assets', to: 'assets' },
+      ],
     }),
   ],
   module: {
