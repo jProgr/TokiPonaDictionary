@@ -11,14 +11,16 @@ head
     h1 Toki Pona Dictionary
     p.subtitle Search in english and Toki Pona
   main
-    each word in dictionary
-      .word
-        .word-name=word.word
-        ul.word-meanings
-          each meaning in word.meanings
-            li.meaning
-              span.speech-type=meaning[0]
-              span=meaning[1]
+    //- #search-box
+    .dictionary-words
+      each word in dictionary
+        .word
+          .word-name=word.word
+          ul.word-meanings
+            each meaning in word.meanings
+              li.meaning
+                span.speech-type=meaning[0]
+                span=meaning[1]
   footer
     p.footer-title Parts of speech
     ul.parts-of-speech
