@@ -6,32 +6,25 @@
   font-family: 'Source Sans Pro';
   font-weight: 200;
   src: local(Source Sans Pro ExtraLight),
-    url(fonts/SourceSansPro-ExtraLight.woff);
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-weight: 200;
-  font-style: italic;
-  src: local(Source Sans Pro Italic),
-    url(fonts/SourceSansPro-ExtraLight.woff);
+    url(fonts/SubsetSourceSansPro-ExtraLight.woff);
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 300;
   src: local(Source Sans Pro Light),
-    url(fonts/SourceSansPro-Light.woff);
+    url(fonts/SubsetSourceSansPro-Light.woff);
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 400;
   src: local(Source Sans Pro),
-    url(fonts/SourceSansPro-Regular.woff);
+    url(fonts/SubsetSourceSansPro-Regular.woff);
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 600;
   src: local(Source Sans Pro Semibold),
-    url(fonts/SourceSansPro-SemiBold.woff);
+    url(fonts/SubsetSourceSansPro-SemiBold.woff);
 }
 
 /*
@@ -186,7 +179,6 @@ input:-moz-placeholder {
 .speech-type {
   color: #efe8e8;
   font-weight: 200;
-  font-style: italic;
 }
 
 /*
