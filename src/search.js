@@ -6,10 +6,32 @@ export class ElementSearcher {
   /**
    * Creates an ElementSearcher.
    *
-   * @param {iterable} nodes - A bunch of DOM elements.
+   * @param {iterable} nodes - A bunch of HTMLElement.
    */
   constructor(nodes) {
-    this._nodes = nodes;
+    this._nodes = new Map();
+    let i = 0;
+    for (const node of nodes) {
+      this._nodes.set(i, node);
+      i++;
+    }
+
+    this._boot();
+  }
+
+  /**
+   * Does some extra work to initialize the object.
+   *
+   * @return {undefined}
+   */
+  _boot() {
+    this._textNodes = new Map();
+    this._nodes.forEach((node, id) => {
+      this._textNodes.set(
+        id,
+        Array.from(this._getTextNodesRecursively(node)).join(' ')
+      );
+    });
   }
 
   /**
@@ -25,10 +47,10 @@ export class ElementSearcher {
       return;
     }
 
-    for (const element of this._nodes) {
-      if (this._hasQuery(query, element)) { this._showElement(element); }
+    this._nodes.forEach((element, id) => {
+      if (this._textNodes.get(id).includes(query)) { this._showElement(element); }
       else { this._hideElement(element); }
-    }
+    });
   }
 
   /**
@@ -90,21 +112,5 @@ export class ElementSearcher {
     }
 
     return textNodes;
-  }
-
-  /**
-   * Checks if element and any of its descendants have query as a substring in the
-   * text nodes.
-   *
-   * @param {string} query
-   * @param  {HTMLElement} element
-   * @return {Boolean}
-   */
-  _hasQuery(query, element) {
-    for (const definition of this._getTextNodesRecursively(element)) {
-      if (definition.includes(query)) return true;
-    }
-
-    return false;
   }
 }
