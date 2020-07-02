@@ -9,7 +9,6 @@ module.exports = {
     contentBase: path.join(__dirname, 'dist'),
     port: 9000,
   },
-  mode: 'production',
   entry: './src/main.js',
   output: {
     filename: 'app.js',
