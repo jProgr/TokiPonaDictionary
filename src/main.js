@@ -6,7 +6,7 @@ const wordElements = document.querySelectorAll('div[class=word]');
 const searcher = new ElementSearcher(wordElements);
 
 const searchElement = document.getElementById('search');
-searchElement.addEventListener('keyup', _ => {
+searchElement.addEventListener('keyup', () => {
   const query = searchElement.value.trim().toLowerCase();
   searcher.search(query);
 });
