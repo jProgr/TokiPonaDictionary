@@ -1,10 +1,6 @@
 {
   "name": "tokiponadictionary",
-  "version": "1.0.0",
   "description": "A simple Toki Pona - English dictionary with search function.",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/",
@@ -13,16 +9,8 @@
     "start:prod": "webpack-dev-server --open --host 0.0.0.0 --config webpack.prod.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jProgr/TokiPonaDictionary.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jProgr/TokiPonaDictionary/issues"
-  },
-  "homepage": "https://github.com/jProgr/TokiPonaDictionary#readme",
+  "author": "jProgr <8537691@gmail.com> (https://github.com/jProgr)",
+  "license": "Unlicense",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.2",

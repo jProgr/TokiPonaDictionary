@@ -12,4 +12,7 @@
 
 # Tools
 
-- [Angular.js](https://angularjs.org/) by Google under [The MIT License](https://github.com/angular/angular.js/blob/master/LICENSE).
+- [Node.js](https://nodejs.org/en/) by a lot of people under [Copyright](https://github.com/nodejs/node/blob/master/LICENSE).
+- [Webpack](https://webpack.js.org/) by the JS Foundation and all its contributors under the [MIT License](https://github.com/webpack/webpack/blob/master/LICENSE).
+- [ESLint](https://eslint.org/) by the JS Foundation and all its contributors under the [MIT License](https://github.com/eslint/eslint/blob/master/LICENSE).
+- [fontTools](https://github.com/fonttools/fonttools) by Just van Rossum under the [MIT License](https://github.com/fonttools/fonttools/blob/master/LICENSE).
