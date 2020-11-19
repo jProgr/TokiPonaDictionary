@@ -4,6 +4,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const fs = require('fs');
 const CopyPlugin = require('copy-webpack-plugin');
 
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").default;
+
 module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
@@ -33,7 +37,7 @@ module.exports = {
         preserveLineBreaks: false,
         removeAttributeQuotes: true,
         removeComments: true,
-        removeOptionalTags: true,
+        removeOptionalTags: false,
         removeRedundantAttributes: true,
         removeScriptTypeAttributes: true,
         removeStyleLinkTypeAttributes: true,
@@ -46,6 +50,12 @@ module.exports = {
         { from: 'src/assets', to: 'assets' },
       ],
     }),
+    new MiniCssExtractPlugin({
+      // filename: 'styles.css',
+      filename: "[name].css",
+      chunkFilename: "[id].css"
+    }),
+    new HTMLInlineCSSWebpackPlugin(),
   ],
   module: {
     rules: [
@@ -53,7 +63,7 @@ module.exports = {
       {
         include: path.resolve(__dirname, 'src'),
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       // Fonts
       {
@@ -75,5 +85,11 @@ module.exports = {
         use: ['pug-loader'],
       }
     ],
-  }
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new CssMinimizerPlugin(),
+    ],
+  },
 };

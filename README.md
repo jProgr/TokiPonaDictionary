@@ -10,7 +10,7 @@ This dictionary uses many sources for its information, please see the credits fi
 
 The project uses NPM and its ecosystem. So to run it you need at least:
 
-- Node 12.
+- Node 14.
 
 To begin install depencies using NPM:
 
