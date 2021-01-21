@@ -141,11 +141,11 @@ input:-moz-placeholder {
 }
 
 .dictionary-words {
-  margin-top: 50px;
+  margin-top: 0px;
   border-bottom: thin solid snow;
 }
 .word {
-  margin: 2.5em 0;
+  margin: 0.5em;
   display: flex;
   font-weight: 400;
 }
@@ -154,15 +154,23 @@ input:-moz-placeholder {
     display: block;
   }
 }
+.entry {
+ border-radius:2em;
+ margin: 1.5em 0;
+ display:flex;
+}
+.exact-match {
+  background: sienna;
+}
 .word-name {
-  display: block;
+  display: inline-table;
   align-self: center;
   width: 90px;
 }
 .word-meanings {
   display: block;
   align-self: flex-end;
-  width: 400px;
+  width: auto;
   margin: 0;
   padding: 0;
   font-weight: 300;
