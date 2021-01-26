@@ -1,0 +1,32 @@
+{
+    "theme_color": "#ff822f",
+    "background_color": "#ff822f",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "app_name": "Toki Pona Dictionary",
+    "short_name": "Toki Pona Dict",
+    "description": "A simple Toki Pona - English dictionary with search function.  This dictionary strives to cover all the words as used by Toki Pona speakers without forgetting about the official dictionary. So it includes some unofficial words and meanings but they are always marked with an asterisk.  This dictionary uses many sources for its information, please see the credits file for more detail.",
+    "icons": [
+        {
+            "src": "/assets/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
