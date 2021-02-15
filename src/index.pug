@@ -13,17 +13,15 @@ head
   main
     #search-box
       input(type='text' id='search' autofocus='true' placeholder='o lukin' autocorrect='off' autocapitalize='off' spellcheck='false')
-    #exact-results
     .dictionary-words
       each word in dictionary
-        .entry
-          .word
-            .word-name=word.word
-            ul.word-meanings
-              each meaning in word.meanings
-                li.meaning
-                  span.speech-type=meaning[0]
-                  span=meaning[1]
+        .word
+          .word-name=word.word
+          ul.word-meanings
+            each meaning in word.meanings
+              li.meaning
+                span.speech-type=meaning[0]
+                span=meaning[1]
   footer
     p.footer-title Parts of speech
     ul.parts-of-speech
