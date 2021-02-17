@@ -1,5 +1,14 @@
 # Changelog
 
+## 210217
+### Changed
+- The search algorithm now uses complete words instead of partial ones.
+- Improved the page load: Now styles are loaded with the content and they are smaller.
+
+### Fixed
+- Fixed multiple definitions from the dictionary.
+- Minor fixes to the main input on mobile devices.
+
 ## 200729
 ### Changed
 - Changed behaviour on footer links.
