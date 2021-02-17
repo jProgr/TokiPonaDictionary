@@ -395,7 +395,15 @@
     "meanings": [
       [
         "mod",
-        "also, too, even, indeed (emphasizes the word that follows)"
+        "also, too, still, really, even, indeed"
+      ],
+      [
+        "interj*",
+        "really!, truly!, indeed!"
+      ],
+      [
+        "cont*",
+        "moreover, indeed, in addition"
       ]
     ]
   },
