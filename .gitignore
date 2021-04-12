@@ -1,1 +1,3 @@
 *.sublime-*
+dist
+node_modules
