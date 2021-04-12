@@ -1,5 +1,9 @@
 # Changelog
 
+## 210412
+### Changed
+- Added new word to the dictionary.
+
 ## 210217
 ### Changed
 - The search algorithm now uses complete words instead of partial ones.
