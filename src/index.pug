@@ -16,12 +16,19 @@ head
     .dictionary-words
       each word in dictionary
         .word
-          .word-name=word.word
-          ul.word-meanings
-            each meaning in word.meanings
-              li.meaning
-                span.speech-type=meaning[0]
-                span=meaning[1]
+          if word.meanings.length == 1 && word.meanings[0][0] === "comp"
+            i.word-name.compound=word.word
+            ul.word-meanings
+              each meaning in word.meanings
+                li.meaning
+                  i=meaning[1]
+          else
+            .word-name=word.word
+            ul.word-meanings
+              each meaning in word.meanings
+                li.meaning
+                  span(class='speech-type' class=meaning[0])=meaning[0]
+                  span=meaning[1]
   footer
     p.footer-title Parts of speech
     ul.parts-of-speech
