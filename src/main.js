@@ -23,7 +23,6 @@ const searchElement = document.getElementById('search');
 searchElement.addEventListener('keyup', () => {
   const query = searchElement.value.trim().toLowerCase();
 
-  console.log(query.length)
   if (query.length == 0) {
     hideCompounds();
   } else {
