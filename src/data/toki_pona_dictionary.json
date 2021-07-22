@@ -174,6 +174,19 @@
         ]
     },
     {
+        "word": "epiku",
+        "meanings": [
+            [
+                "n",
+                "an epic narrative"
+            ],
+            [
+                "mod",
+                "epic, heroic"
+            ]
+        ]
+    },
+    {
         "word": "esun",
         "meanings": [
             [
@@ -473,6 +486,15 @@
         ]
     },
     {
+        "word": "jan lanpan",
+        "meanings": [
+            [
+                "comp",
+                "thief, burglar"
+            ]
+        ]
+    },
+    {
         "word": "jan lawa",
         "meanings": [
             [
@@ -505,6 +527,15 @@
             [
                 "comp",
                 "banker"
+            ]
+        ]
+    },
+    {
+        "word": "jan misikeke",
+        "meanings": [
+            [
+                "comp",
+                "doctor"
             ]
         ]
     },
@@ -716,6 +747,19 @@
         ]
     },
     {
+        "word": "jasima",
+        "meanings": [
+            [
+                "n",
+                "reflection, mirror"
+            ],
+            [
+                "vt",
+                "to reflect, to mirror"
+            ]
+        ]
+    },
+    {
         "word": "jelo",
         "meanings": [
             [
@@ -791,6 +835,15 @@
             [
                 "comp",
                 "music"
+            ]
+        ]
+    },
+    {
+        "word": "kalama jasima",
+        "meanings": [
+            [
+                "comp",
+                "echo"
             ]
         ]
     },
@@ -913,6 +966,15 @@
         ]
     },
     {
+        "word": "kijetesantakalu",
+        "meanings": [
+            [
+                "n",
+                "animal from the Procyonidae family, racoon"
+            ]
+        ]
+    },
+    {
         "word": "kili",
         "meanings": [
             [
@@ -929,11 +991,11 @@
                 "also, too, still, really, even, indeed"
             ],
             [
-                "interj*",
+                "interj",
                 "really!, truly!, indeed!"
             ],
             [
-                "cont*",
+                "cont",
                 "moreover, indeed, in addition"
             ]
         ]
@@ -951,11 +1013,11 @@
         "word": "kipisi",
         "meanings": [
             [
-                "n*",
+                "n",
                 "section, fragment, slice"
             ],
             [
-                "vt*",
+                "vt",
                 "to cut"
             ]
         ]
@@ -1023,6 +1085,27 @@
             [
                 "comp",
                 "wind"
+            ]
+        ]
+    },
+    {
+        "word": "ku",
+        "meanings": [
+            [
+                "n",
+                "buying and interacting with the Toki Pona Dictionary"
+            ],
+            [
+                "mod",
+                "buying and interacting with the Toki Pona Dictionary"
+            ],
+            [
+                "vt",
+                "to apply (the official Toki Pona Dictionary) to\u2026"
+            ],
+            [
+                "vi",
+                "to buy and to read (the official Toki Pona Dictionary)"
             ]
         ]
     },
@@ -1097,6 +1180,19 @@
         ]
     },
     {
+        "word": "lanpan",
+        "meanings": [
+            [
+                "n",
+                "theft, burglary"
+            ],
+            [
+                "vt",
+                "to steal"
+            ]
+        ]
+    },
+    {
         "word": "lape",
         "meanings": [
             [
@@ -1148,8 +1244,26 @@
         "word": "leko",
         "meanings": [
             [
+                "n",
+                "square, block, brick, cube"
+            ]
+        ]
+    },
+    {
+        "word": "leko nanpa",
+        "meanings": [
+            [
                 "comp",
-                "square"
+                "dice"
+            ]
+        ]
+    },
+    {
+        "word": "leko wawa",
+        "meanings": [
+            [
+                "comp",
+                "battery"
             ]
         ]
     },
@@ -1496,6 +1610,15 @@
         ]
     },
     {
+        "word": "meso",
+        "meanings": [
+            [
+                "mod",
+                "average, intermediate, mediocre"
+            ]
+        ]
+    },
+    {
         "word": "mi",
         "meanings": [
             [
@@ -1545,6 +1668,19 @@
             [
                 "mod",
                 "male, masculine, manly"
+            ]
+        ]
+    },
+    {
+        "word": "misikeke",
+        "meanings": [
+            [
+                "n",
+                "medicine, drug"
+            ],
+            [
+                "vt",
+                "to treat (medically)"
             ]
         ]
     },
@@ -1617,7 +1753,7 @@
         "word": "monsuta",
         "meanings": [
             [
-                "n*",
+                "n",
                 "monster, monstrosity, fearful thing, fright, mythical creatures, fear"
             ]
         ]
@@ -1701,18 +1837,27 @@
         ]
     },
     {
+        "word": "n",
+        "meanings": [
+            [
+                "interj",
+                "hmm, um"
+            ]
+        ]
+    },
+    {
         "word": "namako",
         "meanings": [
             [
-                "n*",
+                "n",
                 "spice, something extra, food additive, accessory"
             ],
             [
-                "vt*",
+                "vt",
                 "to spice, to flavor, to decorate"
             ],
             [
-                "mod*",
+                "mod",
                 "spicy, piquant"
             ]
         ]
@@ -2492,6 +2637,33 @@
         ]
     },
     {
+        "word": "sitelen pi leko lili mute",
+        "meanings": [
+            [
+                "comp",
+                "mosaic"
+            ]
+        ]
+    },
+    {
+        "word": "soko",
+        "meanings": [
+            [
+                "n",
+                "mushroom, fungus"
+            ]
+        ]
+    },
+    {
+        "word": "soko jaki",
+        "meanings": [
+            [
+                "comp",
+                "mold"
+            ]
+        ]
+    },
+    {
         "word": "sona",
         "meanings": [
             [
@@ -2926,6 +3098,15 @@
         ]
     },
     {
+        "word": "tenpo suno meso",
+        "meanings": [
+            [
+                "comp",
+                "afternoon"
+            ]
+        ]
+    },
+    {
         "word": "tenpo suno ni",
         "meanings": [
             [
@@ -2961,6 +3142,15 @@
             [
                 "comp",
                 "English"
+            ]
+        ]
+    },
+    {
+        "word": "toki jasima",
+        "meanings": [
+            [
+                "comp",
+                "respond"
             ]
         ]
     },
@@ -3116,7 +3306,7 @@
         "word": "tonsi",
         "meanings": [
             [
-                "mod*",
+                "mod",
                 "queer, non-binary, gender non-conforming"
             ]
         ]
@@ -3182,6 +3372,15 @@
             [
                 "vt",
                 "hit, strike, attack, compete against"
+            ]
+        ]
+    },
+    {
+        "word": "utala jasima",
+        "meanings": [
+            [
+                "comp",
+                "revenge"
             ]
         ]
     },
