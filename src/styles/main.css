@@ -31,6 +31,10 @@
   General
 */
 
+.hidden {
+  display: none !important;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: snow;
